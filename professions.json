@@ -1,0 +1,45 @@
+[
+    {
+        "type": "profession",
+        "ident": "apprentice_shinigami",
+        "name": "Apprentice Shinigami",
+        "description": "Description of Apprentice Shinigami profession.",
+        "points": 5,
+        "skills": [
+            {
+                "level": 2,
+                "name": "melee"
+            },
+	    {
+                "level": 2,
+                "name": "cutting"
+            },
+            {
+                "level": 3,
+                "name": "dodge"
+            }
+        ],
+        "items": {
+            "both": [
+		"tshirt",
+		"undershirt",
+		"hoodie",
+		"shorts_cargo",
+		"sneakers",
+		"gloves_fingerless",
+		"scythe_war",
+		"small_relic",
+		"apple",
+		"apple",
+		"apple"
+            ],
+            "male": [
+                "boxer_shorts",
+            ],
+            "female": [
+                "boy_shorts"
+            ]
+        },
+		"traits": ["PROF_MARTIAL_ARTS_shinigami"]
+    }
+]
