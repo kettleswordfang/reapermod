@@ -1,0 +1,9 @@
+{
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "shinigamimod",
+        "name": "Shinigami",
+        "description": "Adds the Shinigami / Grim Reaper Martial Art and Profession",
+        "path": "",
+		"author": "Kettle Swordfang"
+    }
