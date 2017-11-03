@@ -7,8 +7,8 @@
     ]
   },
   {
-    "type" : "mansion_books",
-    "id" : "textbooks",
+    "type" : "item_group",
+    "id" : "mansion_books",
     "items":[
       ["relicscythes_book", 1]
     ]

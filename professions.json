@@ -21,20 +21,18 @@
         ],
         "items": {
             "both": [
+		"scythe_war",
+		"small_relic",
 		"tshirt",
 		"undershirt",
 		"hoodie",
 		"shorts_cargo",
 		"sneakers",
 		"gloves_fingerless",
-		"scythe_war",
-		"small_relic",
-		"apple",
-		"apple",
 		"apple"
             ],
             "male": [
-                "boxer_shorts",
+                "boxer_shorts"
             ],
             "female": [
                 "boy_shorts"
