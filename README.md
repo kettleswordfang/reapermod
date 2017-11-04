@@ -1,7 +1,5 @@
 # Song of Shinigami
 
->The reaper does not listen to the harvest.
-
 Adds a Shinigami / Grim Reaper martial style usable with all scythe weapons.
 
 **TO DO**  
@@ -61,3 +59,5 @@ Advanced Scythe Recipes (high level fabrication) - found in mansions
 * bone scythe : `lump or chunk of steel + bones + tainted meat + spiral stone`
 * relic scythe (artefact) : `perfected scythe + lump of steel + small relic`
 * ornate scythe (artefact) : `perfected scythe + diamond + gold + silver`
+
+>The reaper does not listen to the harvest.
