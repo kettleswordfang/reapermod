@@ -43,7 +43,7 @@ Advanced Scythe Recipes (high level fabrication) - found in mansions
 
 **Apprentice Shinigami**  
 	Melee 1, Cutting 1, Dodge 2  
-	+War Scythe
+	+Scythe
 
 **Grim Reaper**  
 	Melee 3, Cutting 2, Dodge 2, Bartering 5  
