@@ -13,7 +13,7 @@ Move cost for attacks is reduced at Melee 3 and Melee 9.
 Defensive move, low move cost feint.
 Requires Melee 2.
 
-"Critical Shinigami Attack"
+"Death Blow - Critical Shinigami Attack"
 Bonus to armor penetration and cutting damage.
 Requires Melee 3.
 
