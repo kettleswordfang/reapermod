@@ -1,0 +1,60 @@
+[
+  {
+	"type" : "recipe",
+	"result": "scythe_war_upgraded",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 4,
+	"skills_required": ["melee", 3],
+	"time": 30000,
+	"book_learn": [["basicscythes_book",  3]],
+	"qualities" : [
+	    {"id":"HAMMER","level":1,"amount":1},
+	    {"id":"SAW_W","level":1,"amount":1},
+	    {"id":"SAW_M","level":1,"amount":1}
+	    ],
+	"tools": [
+	    [
+		["toolset", 25],
+		["fire", -1],
+		["forge", 80],
+		["oxy_torch", 20]
+	    ]
+	],
+	"components": [
+	    [["scythe_war", 1]],
+	    [["steel_lump", 1]],
+	    [["2x4", 1], ["stick", 3]],
+	    [["leather", 4], ["rag", 8]
+	]
+  },
+  {
+	"type" : "recipe",
+	"result": "scythe_war_perfected",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 6,
+	"skills_required": [["melee", 5], ["cutting", 3]],
+	"time": 300000,
+	"book_learn": [["basicscythes_book",  5]],
+	"qualities" : [
+	    {"id":"HAMMER","level":3,"amount":1}
+	    ],
+	"tools": [
+	    [["tongs", -1]],
+	    [["chisel", -1]],
+	    [["anvil", -1]],
+	    [["swage", -1]],
+	    [
+		["forge", 450],
+		["oxy_torch", 90]
+	    ]
+	],
+	"components": [
+	    [["scythe_war_upgraded", 1]],
+	    [["steel_chunk", 13]]
+	]
+  },  
+]
