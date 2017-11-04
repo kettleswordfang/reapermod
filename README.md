@@ -1,5 +1,7 @@
 # Song of Shinigami
 
+>The reaper does not listen to the harvest.
+
 Adds a Shinigami / Grim Reaper martial style usable with all scythe weapons.
 
 **TO DO**  
