@@ -1,71 +1,58 @@
-# reapermod
+# Song of Shinigami
 
+Adds a Shinigami / Grim Reaper martial style usable with all scythe weapons.
 
-book - learn martial art
-book - basic scythe recipes
-book - advanced scythe recipes
+## New Martial Art Style - Shinigami Song
 
+Increases hit bonus when a scythe is equipped.
+Cut damage is increased after a successful dodge.
+Dodge chance is increased after a successful block.
+Move cost for attacks is reduced at Melee 3 and Melee 9.
 
-technique - high crit attack ~ aim for the neck / heart
-technique - feint 	
-technique - fast attack ~ quick ftl slash
-technique - high damage attack ~ soul rip/breaker
+"Shadow Break - Feint Shinigami Attack"
+Defensive move, low move cost feint.
+Requires Melee 2.
 
-trait - start with martial art
+"Critical Shinigami Attack"
+Bonus to armor penetration and cutting damage.
+Requires Melee 3.
 
-profession - trait + scythe + basic recipe book + apples + robe
+"Split the Sunlight - Fast Shinigami Attack"
+Stunning attack with reduced move cost.
+Requires dodge chance buff + Melee 5.
 
-item - death robe
+"Soul Pierce - High Damage Shinigami Attack"
+Critical attack, high armor penetration and high cutting damage bonus.
+Requires Melee 8.
 
-weapon - war scythe (already exists, scythe_war = 1 cutting + 1 butchering)
-	Volume: 3.25 L Weight: 6.64 lbs/3.01 kg
-	Bash: 2 Cut: 26 To-hit bonus: +1
-	Moves per attack: 167
-	Damage per move: 0.17	
+## New book additions
 
-weapon - upgraded war scythe
-	    [["scythe_war", 1]],
-	    [["steel_lump", 6]],
-	    [["2x4", 6]],
-	    [["leather", 6]]
+Martial Art Manual - found amongst novels and in hospital beds
+Basic Scythe Recipes (fabrication) - found amongst fabrication books
+Advanced Scythe Recipes (high level fabrication) - found in mansions
 
-weapon - perfected war scythe
-	    [["upgraded scythe", 1]],
-	    [["steel_chunk", 13]]
-		[["charcoal", 20]]
-		
-weapon - diamond scythe
-		["charcoal", 100],
-		["coal_lump", 100]
-	    [["plasma", 40]],
-	    [["perfected scythe", 1]]
+## Weapons usable with Shinigami Song
 
-weapon - flaming scythe (off & on)
-	    [["leather", 5]],
-	    [["pipe", 1]],
-	    [["upgraded scythe", 1]],
-	    [["flamethrower_crude", 1]]
+* scythe, war scythe
+* upgraded war scythe : war scythe + lump of steel + 2x4 or heavy stick + leather
+* perfected war scythe : upgraded war scythe + chunk of steel + charcoal
+* diamond scythe : perfected scythe + charcoal + hydrogen
+* flaming scythe : upgraded scythe + leather + pipe + simple flamethrower
+* bone scythe : lump or chunk of steel + bones + tainted meat + spiral stone
+* relic scythe (artefact) : perfected scythe + lump of steel + small relic
+* ornate scythe (artefact) : perfected scythe + diamond + gold + silver
 
-weapon - relic / artefact scythe {AEP_SAP_LIFE, AEP_SPEED_UP}
-	    [["small_relic", 13]],
-	    [["steel_lump", 13]],
-	    [["perfected scythe", 1]]
-		
-weapon - ornate / ancient scythe {AEP_PSYSHIELD, AEP_SPEED_UP}
-	    [["diamond", 20]],
-	    [["gold_small", 5000]],
-	    [["silver_small", 5000]],
-	    [["perfected scythe", 1]]
-		
-weapon - decorative ~like fake katana? ~fancy?
+## New Professions - both start with martial style
 
-~~soul calibur weapons~~
-     Kafziel
-    Death Scythe
-    Ankou - decorative 
-    Balor
-    Mrtyu	- sanskrit word, death
-    Irkalla	- poison - bones, or a spinal column to be more specific. It radiates with evil
-		bones, tainted meat, steel_chunk, leather
-    Beak	- Soul Repel, repel any attacks -  large, white bird head, with the beak acting as the blade of the sythe. The bird has very wide eyes
-    The Ancient (Zasalamel) 
+Apprentice Shinigami
+	Melee 1
+	Cutting 1
+	Dodge 2
+	+War Scythe
+
+Grim Reaper 
+	Melee 3
+	Cutting 2
+	Dodge 2
+	Bartering 5
+	+War Scythe
