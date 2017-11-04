@@ -19,19 +19,19 @@ Cut damage is increased after a successful dodge.
 Dodge chance is increased after a successful block.  
 Move cost for attacks is reduced at Melee 3 and Melee 9.  
 
-"Shadow Break - Feint Shinigami Attack"  
+**"Shadow Break - Feint Shinigami Attack"**  
 Defensive move, low move cost feint.  
 `Requires Melee 2`
 
-"Death Blow - Critical Shinigami Attack"  
+**"Death Blow - Critical Shinigami Attack"**  
 Bonus to armor penetration and cutting damage.  
 `Requires Melee 3`  
 
-"Split the Sunlight - Fast Shinigami Attack"  
+**"Split the Sunlight - Fast Shinigami Attack"**  
 Stunning attack with reduced move cost.  
 `Requires dodge chance buff + Melee 5`
 
-"Soul Pierce - High Damage Shinigami Attack"  
+**"Soul Pierce - High Damage Shinigami Attack"**  
 Critical attack, high armor penetration and high cutting damage bonus.  
 `Requires Melee 8`
 
