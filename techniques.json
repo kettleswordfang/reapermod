@@ -15,7 +15,7 @@
 	{
     "type" : "technique",
     "id" : "tec_shinigami_feint",
-    "name" : "Sky Break",
+    "name" : "Sky Break Melody",
     "min_melee" : 2,
     "defensive" : true,
     "miss_recovery" : true,

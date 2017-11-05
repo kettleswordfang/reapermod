@@ -3,28 +3,28 @@
 		"type" : "martial_art",
         "id" : "style_shinigami",
         "name" : "Shinigami Song",
-        "description": "Description of Shinigami Song.",
+        "description": "You have mastered the art of fighting with a scythe.",
 		"arm_block" : 99,
         "leg_block" : 99,
         "static_buffs" : [
             {
                 "id" : "shinigami_staticbuff1",
-                "name" : "name of shinigami_staticbuff1",
-                "description" : "Hit bonus increase when a scythe is equipped.",
+                "name" : "Winds of the End",
+                "description" : "Bonus to hit increase when a scythe is equipped.",
 				"max_stacks" : 1,
                 "flat_bonuses" : [["hit", 1.0]]
             },
 			{
                 "id" : "shinigami_staticbuff2",
-                "name" : "Hunger of Immortality",
-                "description" : "Reduce move cost when a scythe is equipped.",
-				"min_melee" : 3,
+                "name" : "Hunger for Immortality",
+                "description" : "Reduced move cost for attacks when a scythe is equipped.",
+				"min_melee" : 4,
 				"max_stacks" : 1,
                 "flat_bonuses" : [["movecost", -10]]
             },
 			{
 				"id" : "shinigami_staticbuff3",
-                "name" : "Reaper",
+                "name" : "Storm of the Reaper",
                 "description" : "Further reduction to move cost when a scythe is equipped.",
 				"min_melee" : 9,
 				"max_stacks" : 1,

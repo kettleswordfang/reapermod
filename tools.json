@@ -154,7 +154,7 @@
     "category": "weapons",
     "name": "name of the scythe_ornate",
     "description": "Description of the scythe_ornate.",
-    "weight": 2361,
+    "weight": 3000,
     "volume": 16,
     "price": 400000,
     "to_hit": -1,
@@ -170,5 +170,24 @@
 		{
 		"effects_wielded": ["AEP_PSYSHIELD", "AEP_STR_UP", "AEP_SPEED_UP", "AEP_PER_UP" ]
 		}
+  },
+  {
+    "id": "scythe_bone",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "bone scythe",
+    "description": "This scythe drips with malicious intent. It will quickly and painfully take down any creature susceptible to poison.",
+    "weight": 2400,
+    "volume": 10,
+    "price": 20000,
+    "to_hit": 1,
+    "bashing": 5,
+    "cutting": 25,
+    "material": [ "bone", "steel" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "techniques": [ "WIDE", "BRUTAL", "WBLOCK_2" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -1 ] ],
+    "flags": [ "DURABLE_MELEE", "SLICE", "BADPOISON" ]
   }
 ]
