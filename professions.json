@@ -61,7 +61,7 @@
             },
 			{
 				"level": 5,
-				"name": "bartering"
+				"name": "barter"
 			}
         ],
         "items": {
@@ -71,12 +71,6 @@
 		"gloves_fingerless",
 		"waterskin",
 		"grimrobe"
-            ],
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "boy_shorts"
             ]
         },
 		"traits": ["PROF_MARTIAL_ARTS_shinigami"]

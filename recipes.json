@@ -27,7 +27,7 @@
 	    [["scythe_war", 1]],
 	    [["steel_lump", 1]],
 	    [["2x4", 1], ["stick", 3]],
-	    [["leather", 4], ["rag", 8]
+	    [["leather", 4], ["rag", 8]]
 	]
   },
   {
@@ -87,7 +87,7 @@
 		["coal_lump", 100]
 	    ],
 	    [["plasma", 40]],
-	    [["gscythe_war_ex", 1]]
+	    [["scythe_war_perfected", 1]]
 	]
   },  
   {
@@ -100,7 +100,7 @@
 	"time": 300000,
 	"book_learn": [["basicscythes_book", 5], ["book_icef", 4]],
 	"qualities" : [
-	    {"id":"glares","level":1}
+	    {"id":"GLARE","level":1},
 		{"id":"SCREW","level":1}
 	    ],
 	"tools": [
@@ -145,7 +145,7 @@
 	    ]
 	],
 	"components": [
-	    [["bone_human", 25], ["bone_tainted", 25]]
+	    [["bone_human", 25], ["bone_tainted", 25]],
 	    [["steel_lump", 6], ["steel_chunk", 18]],
 	    [["2x4", 2], ["stick", 4]],
 	    [["rope_makeshift_6", 4], ["rope_6", 4], ["superglue", 2], ["bone_glue", 4]]
