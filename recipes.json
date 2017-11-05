@@ -56,5 +56,35 @@
 	    [["scythe_war_upgraded", 1]],
 	    [["steel_chunk", 13]]
 	]
+  },
+  {
+	"type" : "recipe",
+	"result": "scythe_diamond",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 10,
+	"time": 320000,
+	"book_learn": [["basicscythes_book", 9], ["recipe_lab_cvd", 9]],
+	"qualities" : [
+	    {"id":"HAMMER","level":3,"amount":1}
+	    ],
+	"tools": [
+	    [["chisel", -1]],
+	    [
+		["oxy_torch", 50],
+		["welder", 150],
+		["welder_crude", 250],
+		["toolset", 50]
+	    ]
+	],
+	"components": [
+	    [
+		["charcoal", 100],
+		["coal_lump", 100]
+	    ],
+	    [["plasma", 40]],
+	    [["gscythe_war_ex", 1]]
+	]
   },  
 ]
