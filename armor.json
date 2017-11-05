@@ -13,9 +13,9 @@
     "symbol": "[",
     "color": "brown",
     "covers": [ "LEGS", "TORSO", "ARMS" ],
-    "coverage": 90,
+    "coverage": 80,
     "encumbrance": 5,
-    "storage": 12,
+    "storage": 15,
     "warmth": 20,
     "material_thickness": 3,
     "flags": [ "VARSIZE", "OUTER", "HOOD", "WATER_FRIENDLY", "FANCY" ]
