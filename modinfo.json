@@ -5,7 +5,7 @@
 		"name": "Shinigami",
 		"authors": [ "Kettle Swordfang" ],
 		"description": "Adds the Shinigami / Grim Reaper Martial Art and Profession.",
-		"category": "balance",
+		"category": "rebalance",
 		"dependencies": [ "dda" ]
 	}
 ]
