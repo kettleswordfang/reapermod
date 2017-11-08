@@ -21,7 +21,7 @@
         ],
         "items": {
             "both": [
-		"scythe",
+		"scythe_war",
 		"small_relic",
 		"tshirt",
 		"undershirt",
@@ -29,7 +29,8 @@
 		"shorts_cargo",
 		"sneakers",
 		"gloves_fingerless",
-		"apple"
+		"apple",
+		"mbag"
             ],
             "male": [
                 "boxer_shorts"
