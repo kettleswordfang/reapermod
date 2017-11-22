@@ -4,7 +4,7 @@
     "type": "ARMOR",
     "name": "black robe",
     "name_plural": "black robes",
-	"description": "Blacker than black, this is a long robe with many deep pockets, and almost seems to absorb the light.",
+    "description": "Blacker than black, this is a long robe with many deep pockets, and almost seems to absorb the light.",
     "weight": 1000,
     "volume": 20,
     "price": 5000,

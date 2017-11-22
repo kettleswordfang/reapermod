@@ -5,10 +5,12 @@ Adds a Shinigami / Grim Reaper martial style usable with all scythe weapons.
 **TO DO**  
 + ~~add `recipes` for new weapons~~
 + make `relic/ornate weapons` findable _somewhere_
++ add recipes for relic and ornate weapons
 + ~~complete `Grim Reaper` profession~~
 + ~~fix Shinigami `trait` being selectable when using professions~~
 + ~~add `Bone Scythe`~~
-+ give scythes more `unique names`
++ ~~give scythes more `unique names`~~
++ ~~fix missing descriptions~~
 
 ## New Martial Art Style - Shinigami Song
 

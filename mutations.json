@@ -8,7 +8,7 @@
         "starting_trait" : true,
         "initial_ma_styles" : [ "style_shinigami" ],
         "valid" : false,
-		"purifiable": false
+        "purifiable": false
    },
    {
         "type" : "mutation",
@@ -19,8 +19,8 @@
         "starting_trait" : false,
         "initial_ma_styles" : [ "style_shinigami" ],
         "valid" : false,
-		"purifiable": false,
+        "purifiable": false,
         "profession": true,
-		"cancels" : ["MARTIAL_ARTS_shinigami"]
+        "cancels" : ["MARTIAL_ARTS_shinigami"]
    }
 ]
