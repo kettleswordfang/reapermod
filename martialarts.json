@@ -2,33 +2,40 @@
     {
         "type" : "martial_art",
         "id" : "style_shinigami",
-        "name" : "Shinigami Song",
+        "name" : { "str": "Shinigami Song" },
         "description": "You have mastered the art of fighting with a scythe.",
+        "initiate": [ "Your soul begins to sing the Song of Death." ],
         "arm_block" : 99,
         "leg_block" : 99,
+        "learn_difficulty": 8,
+        "strictly_melee": true,
+        "primary_skill": "cutting",
         "static_buffs" : [
             {
                 "id" : "shinigami_staticbuff1",
                 "name" : "Winds of the End",
                 "description" : "Bonus to hit increase when a scythe is equipped.",
+                "skill_requirements": [ { "name": "melee", "level": 1 } ],
+                "melee_allowed": true,
                 "max_stacks" : 1,
-                "flat_bonuses" : [["hit", 1.0]]
+                "flat_bonuses": [ { "stat": "hit", "scale": 1.0 } ]
             },
             {
                 "id" : "shinigami_staticbuff2",
                 "name" : "Hunger for Immortality",
                 "description" : "Reduced move cost for attacks when a scythe is equipped.",
-                "min_melee" : 4,
+                "skill_requirements": [ { "name": "melee", "level": 4 } ],
+                "melee_allowed": true,
                 "max_stacks" : 1,
-                "flat_bonuses" : [["movecost", -10]]
+                "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 } ]
             },
             {
                 "id" : "shinigami_staticbuff3",
                 "name" : "Storm of the Reaper",
                 "description" : "Further reduction to move cost when a scythe is equipped.",
-                "min_melee" : 9,
+                "min_melee" : 6,
                 "max_stacks" : 1,
-                "flat_bonuses" : [["movecost", -10]]
+                "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 } ]
             }
         ],
         "ondodge_buffs" : [
@@ -38,7 +45,7 @@
                 "description" : "Cut damage increase on dodge.",
                 "buff_duration" : 2,
                 "max_stacks" : 2,
-                "mult_bonuses" : [["damage", "cut", 1.2]]
+                "mult_bonuses" : [ { "stat": "damage", "type": "cut", "scale": 1.25 } ]
             }
         ],
         "onblock_buffs" : [
@@ -48,7 +55,7 @@
                 "description" : "Dodge bonus increase on block.",
                 "buff_duration" : 2,
                 "max_stacks" : 2,
-                "flat_bonuses" : [["dodge", 1.0]],
+                "flat_bonuses" : [ { "stat": "dodge", "scale": 1.0 } ],
                 "bonus_dodges" : 1
             }
         ],
