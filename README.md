@@ -11,6 +11,8 @@ Adds a Shinigami / Grim Reaper martial style usable with all scythe weapons.
 + ~~add `Bone Scythe`~~
 + ~~give scythes more `unique names`~~
 + ~~fix missing descriptions~~
++ add scenario for Shinigami Apprentice / Master
++ add "Sky Break Melody" attack
 
 ## New Martial Art Style - Shinigami Song
 
